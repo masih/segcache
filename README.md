@@ -11,8 +11,7 @@ docker run ghcr.io/masih/segcache:latest
 ```
 
 This will start up a segcache instance accessible on port `12321` with admin server on port `9999`.
-Note that Pelikan segcache does not currently handle `SIGNIT`, and therfore needs to be force-killed
-to stop the container by running `docker kill <contaienr-id>`. See [this](https://github.com/pelikan-io/pelikan/issues/74) issue for more details.
+To stop the running container press `Ctrl + C`.
 
 To see the full default configuration, run:
 ```shell
